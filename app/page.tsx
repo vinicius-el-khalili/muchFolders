@@ -6,16 +6,13 @@ export default function Home() {
     <div className={style.Home}>
       <div>
 
-      <p>Welcome to</p>
-      <h1>
-        /muchFolders
-      </h1>
-      <br />
-      <p>
-        A great start point for new Next.js projects.
-      </p>
+      <div>
+        <h1>
+          /
+        </h1>
       </div>
 
+      </div>
     </div>
     </>
   )
