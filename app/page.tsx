@@ -3,13 +3,20 @@ import style from "@/sass/pages/Home.module.scss"
 export default function Home() {
   return (
     <>
-
     <div className={style.Home}>
+      <div>
 
-      <h1>/</h1>
-      
+      <p>Welcome to</p>
+      <h1>
+        /muchFolders
+      </h1>
+      <br />
+      <p>
+        A great start point for new Next.js projects.
+      </p>
+      </div>
+
     </div>
-    
     </>
   )
 }
