@@ -2,7 +2,18 @@
 
     height: 100%;
     width: 100%;
-    display: grid;
-    place-items: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20%;
+
+    .list {
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+
+    }
 
 }
