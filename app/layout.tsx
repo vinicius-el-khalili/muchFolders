@@ -1,8 +1,7 @@
 import '@/sass/base/globals.scss'
-import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import style from "@/sass/layouts/RootLayout.module.scss"
 
-const inter = Inter({ subsets: ['latin'] })
+import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
   title: 'Macumbox',
@@ -13,11 +12,11 @@ export default function RootLayout({children}: {children: React.ReactNode}) {
   return (
     <html lang="en">
       <body>
-        
-        
-        {children}
-        
-        
+        <main className={style.RootLayout}>
+
+          {children}
+
+        </main>
       </body>
     </html>
   )
