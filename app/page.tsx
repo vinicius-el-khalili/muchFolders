@@ -1,3 +1,5 @@
+import style from "@/sass/pages/Home.module.scss"
+
 export default function Home() {
   return (
     <main
@@ -11,7 +13,13 @@ export default function Home() {
     }}>
 
 
-      <h1>/</h1>
+      <h1 className={style.test}>
+        Test
+      </h1>
+
+      <h1 className={style.test2}>
+        Test
+      </h1>
 
       <div
       style={{

@@ -1,0 +1,59 @@
+@import "./colors";
+
+// root variables
+
+:root {
+
+  --light-background-color: white;
+  --light-text-color: #222;
+  --light-shadow-outline: 0 0 5px black;
+  --light-shadow-inline: inset 0 0 5px black;
+
+  --dark-background-color: #222;
+  --dark-text-color: white;
+  --dark-shadow-outline: 0 0 5px white;
+  --dark-shadow-inline: inset 0 0 5px white;
+
+}
+
+// light mode
+
+@media (prefers-color-scheme: light) {
+
+  :root {
+
+    --background-color: var(--light-background-color);
+    --text-color: var(--light-text-color);
+    --shadow-outline: var(--light-shadow-outline);
+    --shadow-inline: var(--light-shadow-inline);
+
+  }
+
+  html {
+
+    color-scheme: light;
+
+  }
+
+}
+
+// dark mode
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
+
+    --background-color: var(--dark-background-color);
+    --text-color: var(--dark-text-color);
+    --shadow-outline: var(--dark-shadow-outline);
+    --shadow-inline: var(--dark-shadow-inline);
+
+  }
+
+  html {
+
+    color-scheme: dark;
+
+  }
+
+}

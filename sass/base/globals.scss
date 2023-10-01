@@ -1,10 +1,4 @@
-:root {
-
-  --background-color: white;
-  --text-color: black;
-  --shadow-color: black
-
-}
+@import "./root";
 
 * {
 
@@ -40,21 +34,5 @@ a {
 
 }
 
-@media (prefers-color-scheme: dark) {
 
-  :root {
-
-    --background-color: #454545;
-    --text-color: white;
-    --shadow-color: white
-
-  }
-  
-  html {
-
-    color-scheme: dark;
-
-  }
-
-}
 
